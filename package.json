@@ -1,0 +1,28 @@
+{
+  "name": "orangepi",
+  "version": "1.0.0",
+  "description": "Node.js API which runs on OrangePi and works with GPIO sensonors",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llatinov/orangepi.git"
+  },
+  "author": "Lyudmil Latinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llatinov/orangepi/issues"
+  },
+  "homepage": "https://github.com/llatinov/orangepi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  }
+}
